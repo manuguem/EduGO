@@ -1,2 +1,2 @@
 # EduGO
-Proyecto web EduGo
+Proyecto web EduGo México
