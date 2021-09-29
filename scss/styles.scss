@@ -4,7 +4,6 @@
 
 @import "../scss/mixins/breakpoints";
 
-
 @import "../scss/buttons";
 
 @import "../scss/mixins/sizes";
@@ -40,4 +39,5 @@ main {
     .mainTop2{
         @include position(null,5rem,null,null,null,null,null); 
     }
+
 }
