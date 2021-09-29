@@ -1,0 +1,16 @@
+@mixin sizes ($height, $width, $font-weight){
+    height: $height;
+    width: $width;
+    font-weight: $font-weight;
+}
+
+@mixin position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content) {
+    position: $position;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    padding: $padding;
+    justify-content: $justify-content;
+
+}

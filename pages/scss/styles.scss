@@ -19,7 +19,6 @@ a:hover {
 
 header{
     color: $black;
-    background: $white;
     @include sizes (auto, null, 2rem);
      div {
     @include position(null,null,null,10rem,null,null,null);
