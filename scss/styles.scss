@@ -20,14 +20,17 @@ a:hover {
 header{
     color: $black;
     background: $white;
+    //sizes ($height, $width, $font-weight)
     @include sizes (auto, null, 2rem);
      div {
+    // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
     @include position(null,null,null,10rem,null,null,null);
      }
     }
 main {
     
     .center_Items {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(relative,null,null,null,null,null,center);
     }
 
@@ -35,12 +38,15 @@ main {
         border-radius: 10rem;
     }
     .mainTop {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null,15rem,null,null,null,null,null); 
     }
     .mainTop2{
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null,5rem,null,null,null,null,null); 
     }
     .form-control {
-        width: 30rem;
+        //sizes ($height, $width, $font-weight)
+        @include sizes (null, 30rem, null);
     }
 }

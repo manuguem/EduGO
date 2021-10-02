@@ -3320,6 +3320,7 @@ textarea.form-control-lg {
     color: #fff; }
 
 .card {
+  padding-top: 1.2rem;
   position: relative;
   display: flex;
   flex-direction: column;
