@@ -37,16 +37,8 @@ main {
     .button_main {
         border-radius: 10rem;
     }
-    .mainTop {
-        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
-        @include position(null,15rem,null,null,null,null,null); 
-    }
     .mainTop2{
         // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null,5rem,null,null,null,null,null); 
-    }
-    .form-control {
-        //sizes ($height, $width, $font-weight)
-        @include sizes (null, 30rem, null);
     }
 }
