@@ -6,14 +6,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-
-  <title>Sidebar + Navbar</title>
+  <title>EduGo</title>
+  <link rel="shortcut icon" href="/img/logos/eduGO - icono.jpg" type="image/x-icon">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light top-0">
       <a class="navbar-brand" href="index.html"><b>EduGo</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,11 +35,11 @@
               <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Carreras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Talleres</a>
+              <a class="nav-link" href="pages/workshops.html" tabindex="-1" aria-disabled="true">Talleres</a>
             </li>
           </ul>
           <div class="d-flex">
-            <button class="btn" type="submit">Contáctanos →</button>
+            <a href="pages/contact.html"><button class="btn" type="submit">Contáctanos →</button></a>
           </div>
         </div>
       </div>
@@ -67,17 +70,17 @@
 
     <main id="content">
       <div class="container">
-        <h1 class="mainTop"><b>EduGO</b></h1>
+        <h1 class="mainTop"><b>EduGo</b></h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima quasi expedita aliquid blanditiis id
           provident nobis, cumque velit quibusdam dolore dolorem quidem cum ratione accusamus earum amet maiores
           fugiat eaque?</p>
         <div class="mainTop2">
-          <button class="btn button_main">
-            <a href="pages/infocareers.html">Info Carreras</a>
-          </button>
-          <button class="btn button_main">
+          <a href="pages/infocareers.html"><button class="btn button_main">
+            Info Carreras
+          </button></a>
+          <a href="pages/contact.html"><button class="btn button_main">
             Contáctanos
-          </button>
+          </button></a>
         </div>
       </div>
     </main>

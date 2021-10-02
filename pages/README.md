@@ -1,2 +1,0 @@
-# EduGO
-Proyecto web EduGo

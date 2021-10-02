@@ -10,8 +10,7 @@
   height: $card-height;
   word-wrap: break-word;
   background-color: $card-bg;
-  background-clip: border-box;
-  border: $card-border-width solid $card-border-color;
+  transition: all 0.8s ease-in-out;
   @include border-radius($card-border-radius);
 
   > hr {
@@ -212,4 +211,9 @@
       }
     }
   }
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgb(74,74,74);
+  
 }
