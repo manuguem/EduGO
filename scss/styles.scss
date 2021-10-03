@@ -1,0 +1,41 @@
+@import "../scss/bootstrap.scss";
+@import "../scss/variables";
+@import "../scss/mixins/breakpoints";
+@import "../scss/buttons";
+@import "../scss/mixins/sizes";
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+a:hover {
+    color: $black;
+}
+
+header {
+    color: $black;
+    background: $white;
+    //sizes ($height, $width, $font-weight)
+    @include sizes (auto, null, 2rem);
+    div {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, null, null, 10rem, null, null, null);
+    }
+}
+
+main {
+    .center_Items {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(relative, null, null, null, null, null, center);
+    }
+    .button_main {
+        border-radius: 10rem;
+    }
+    .mainTop2 {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, 5rem, null, null, null, null, null);
+    }
+    .mainSection {
+        padding: 0 10%;
+    }
+}
