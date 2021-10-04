@@ -4,13 +4,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
 *,
 *:after,
 *:before {
-=======
-*, *:after, *:before {
-
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
@@ -97,11 +93,8 @@ a[data-toggle="collapse"] {
 .mainTop {
   padding-top: 15rem; }
 
-
 #weMd01 p {
   font-size: larger; }
-
-=======
 
 @media (max-width: 1200px) {
   #sidebar {
@@ -7660,13 +7653,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-
 *,
 *:after,
 *:before {
-=======
-*, *:after, *:before {
-
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
@@ -7753,11 +7742,8 @@ a[data-toggle="collapse"] {
 .mainTop {
   padding-top: 15rem; }
 
-
 #weMd01 p {
   font-size: larger; }
-
-=======
 
 @media (max-width: 1200px) {
   #sidebar {
@@ -8279,14 +8265,8 @@ main .center_Items {
 main .button_main {
   border-radius: 10rem; }
 
-
 main .mainTop2 {
   padding-top: 5rem; }
 
 main .mainSection {
   padding: 0 10%; }
-=======
-
-main .mainTop2 {
-  padding-top: 5rem; }
-
