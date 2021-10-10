@@ -16,17 +16,18 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light top-0">
-            <a class="navbar-brand" href="../index.html"><b>EduGo</b></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <a class="navbar-brand" href="../index.html"><b>EduGo</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../pages/infowe.html">Info</a>
+                        <li class="nav-item paddingleft-Info">
+                            <a class="paddingleft-Info nav-link active" aria-current="page" href="../pages/infowe.html">Info</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Test Vocacional</a>
@@ -35,41 +36,17 @@
                             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Carreras</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../pages/workshops.html" tabindex="-1"
-                                aria-disabled="true">Talleres</a>
+                            <a class="nav-link" href="../pages/workshops.html" tabindex="-1" aria-disabled="true">Talleres</a>
                         </li>
                     </ul>
-                    <a href="../pages/contact.html">
-                        <div class="d-flex">
-                            <button class="btn" type="submit">Contáctanos →</button>
-                        </div>
-                    </a>
+                    <a href="../pages/contact.html"><div class="d-flex">
+                        <button class="btn" type="submit">Contáctanos →</button>
+                    </div></a>
                 </div>
             </div>
         </nav>
     </header>
-
-    <div class="wrapper fixed-left">
-        <nav id="sidebar">
-            <ul class="list-unstyled components">
-                <li>
-                    <a href=""><i class="fas fa-home"></i>Info</a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-clipboard"></i>Test Vocacional</a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-user-cog"></i>Carreras</a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-hands-helping"></i>Talleres</a>
-                </li>
-                <li>
-                    <a href=""><i class="fas fa-info"></i>About</a>
-                </li>
-            </ul>
-        </nav>
-        <main class="container">
+        <main class="container mainTop">
             <section id="content">
                 <div class="row row-cols-1 row-cols-md-3 g-4 center_Items">
                     <div class="col-sm-3">
@@ -81,7 +58,7 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
                                     aspernatur in architecto sequi culpa, ex obcaecati exercitationem, eaque nulla harum
                                     impedit. Facilis, harum delectus sequi quibusdam placeat iure sint! Aperiam!</p>
-                                <div class="d-flex">
+                                <div class="d-flex center_Items">
                                     <button class="btn" type="submit">Inscríbete</button>
                                 </div>
                             </div>
@@ -96,7 +73,7 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
                                     aspernatur in architecto sequi culpa, ex obcaecati exercitationem, eaque nulla harum
                                     impedit. Facilis, harum delectus sequi quibusdam placeat iure sint! Aperiam!</p>
-                                <div class="d-flex">
+                                <div class="d-flex center_Items">
                                     <button class="btn" type="submit">Inscríbete</button>
                                 </div>
                             </div>
@@ -107,7 +84,7 @@
                     <i class="fa fa-whatsapp icono"></i>
                 </a>
         </main><br>
-        <footer>
+        <footer class="mainTop">
 
         </footer>
 </body>

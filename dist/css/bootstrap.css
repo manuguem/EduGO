@@ -4,89 +4,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-.navbar {
-  padding: 10px 10%; }
-
-#logo {
-  display: inline-block;
-  margin-top: 7px;
-  color: #fff; }
-
-#link {
-  color: #fff;
-  font-weight: bold;
-  margin: 0 10px; }
-
-i {
-  margin: 0 7px; }
-
-#sidebarCollapse {
-  display: none; }
-
-#sidebarCollapse:hover {
-  display: none; }
-
-.wrapper {
-  display: none; }
-
-#sidebar {
-  margin-top: 70px;
-  background: white;
-  color: #fff;
-  transition: all 0.3s; }
-
-#sidebar.active {
-  margin-left: -250px; }
-
-#sidebar ul p {
-  padding: 10px;
-  font-size: 1.1em;
-  display: block; }
-
-#sidebar ul li a {
-  padding: 10px 10px 10px 20px;
-  font-size: 1.1em;
-  display: block;
-  color: #fff;
-  font-weight: bold; }
-
-#sidebar ul li a:hover {
-  color: #6240bd;
-  background: #fff;
-  text-decoration: none; }
-
-#sidebar ul li.active > a,
-a[aria-expanded="true"] {
-  color: #fff;
-  background: #8a5fff; }
-
-a[data-toggle="collapse"] {
-  position: relative; }
-
-.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%); }
-
-#content {
-  width: 100%;
-  padding: 40px;
-  min-height: 100vh;
-  transition: all 0.3s;
-  margin-top: 70px; }
-
-#sidebar ul.components {
-  display: none; }
-
 .form-control {
   width: 30rem; }
 
@@ -142,6 +59,13 @@ a[data-toggle="collapse"] {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   transition: all 300ms ease; }
+
+.nav-item {
+  display: flex;
+  justify-content: left; }
+
+.btncontact {
+  padding-right: 10rem; }
 
 .btn-wsp:hover {
   background: #20ba5a; }
@@ -7653,89 +7577,6 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box; }
-
-.navbar {
-  padding: 10px 10%; }
-
-#logo {
-  display: inline-block;
-  margin-top: 7px;
-  color: #fff; }
-
-#link {
-  color: #fff;
-  font-weight: bold;
-  margin: 0 10px; }
-
-i {
-  margin: 0 7px; }
-
-#sidebarCollapse {
-  display: none; }
-
-#sidebarCollapse:hover {
-  display: none; }
-
-.wrapper {
-  display: none; }
-
-#sidebar {
-  margin-top: 70px;
-  background: white;
-  color: #fff;
-  transition: all 0.3s; }
-
-#sidebar.active {
-  margin-left: -250px; }
-
-#sidebar ul p {
-  padding: 10px;
-  font-size: 1.1em;
-  display: block; }
-
-#sidebar ul li a {
-  padding: 10px 10px 10px 20px;
-  font-size: 1.1em;
-  display: block;
-  color: #fff;
-  font-weight: bold; }
-
-#sidebar ul li a:hover {
-  color: #6240bd;
-  background: #fff;
-  text-decoration: none; }
-
-#sidebar ul li.active > a,
-a[aria-expanded="true"] {
-  color: #fff;
-  background: #8a5fff; }
-
-a[data-toggle="collapse"] {
-  position: relative; }
-
-.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%); }
-
-#content {
-  width: 100%;
-  padding: 40px;
-  min-height: 100vh;
-  transition: all 0.3s;
-  margin-top: 70px; }
-
-#sidebar ul.components {
-  display: none; }
-
 .form-control {
   width: 30rem; }
 
@@ -7791,6 +7632,13 @@ a[data-toggle="collapse"] {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100;
   transition: all 300ms ease; }
+
+.nav-item {
+  display: flex;
+  justify-content: left; }
+
+.btncontact {
+  padding-right: 10rem; }
 
 .btn-wsp:hover {
   background: #20ba5a; }
@@ -8252,11 +8100,13 @@ a:hover {
 
 header {
   color: #000;
-  background: #fff;
+  background-color: #fff;
   height: auto;
   font-weight: 2rem; }
   header div {
     padding-left: 10rem; }
+  header .paddingleft-Info {
+    padding-left: 5rem; }
 
 main .center_Items {
   position: relative;

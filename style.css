@@ -153,3 +153,7 @@ a[data-toggle="collapse"] {
   align-items: stretch;
 
 }
+
+.padding-Info {
+  padding-left: 5rem;
+}

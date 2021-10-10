@@ -14,14 +14,20 @@ a:hover {
 
 header {
     color: $black;
-    background: $white;
+    background-color: $white;
     //sizes ($height, $width, $font-weight)
     @include sizes (auto, null, 2rem);
+    
     div {
         // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null, null, null, 10rem, null, null, null);
+        
+    }
+    .paddingleft-Info {
+        @include position(null, null, null, 5rem, null, null, null);
     }
 }
+
 
 main {
     .center_Items {
