@@ -13,26 +13,6 @@
 #weMd01 p {
   font-size: larger; }
 
-@media (max-width: 1200px) {
-  #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    background: #495057;
-    margin-left: -250px; }
-  #sidebar.active {
-    margin-left: 0px; }
-  #sidebarCollapse span {
-    display: none; }
-  .card {
-    width: 100%; }
-  #sidebar ul.components {
-    display: contents;
-    padding: 20px 0px; }
-  .form-control {
-    width: auto; }
-  .mainTop {
-    padding-top: 5rem; } }
-
 .wrapper {
   display: flex;
   width: 100%;
@@ -69,13 +49,6 @@
 
 .btn-wsp:hover {
   background: #20ba5a; }
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .btn-wsp {
-    width: 63px;
-    height: 63px;
-    right: 2rem;
-    line-height: 66px; } }
 
 :root {
   --bs-blue: #0d6efd;
@@ -3283,6 +3256,16 @@ textarea.form-control-lg {
   .navbar-dark .navbar-text a:hover,
   .navbar-dark .navbar-text a:focus {
     color: #fff; }
+
+.card2 {
+  padding-top: 1.2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  border-radius: 0.25rem; }
 
 .card {
   padding-top: 1.2rem;
@@ -7586,26 +7569,6 @@ textarea.form-control-lg {
 #weMd01 p {
   font-size: larger; }
 
-@media (max-width: 1200px) {
-  #sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    background: #495057;
-    margin-left: -250px; }
-  #sidebar.active {
-    margin-left: 0px; }
-  #sidebarCollapse span {
-    display: none; }
-  .card {
-    width: 100%; }
-  #sidebar ul.components {
-    display: contents;
-    padding: 20px 0px; }
-  .form-control {
-    width: auto; }
-  .mainTop {
-    padding-top: 5rem; } }
-
 .wrapper {
   display: flex;
   width: 100%;
@@ -7642,13 +7605,6 @@ textarea.form-control-lg {
 
 .btn-wsp:hover {
   background: #20ba5a; }
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  .btn-wsp {
-    width: 63px;
-    height: 63px;
-    right: 2rem;
-    line-height: 66px; } }
 
 .btn {
   display: inline-block;
@@ -8120,3 +8076,32 @@ main .mainTop2 {
 
 main .mainSection {
   padding: 0 10%; }
+
+main .sizeImgindex {
+  height: 500px;
+  width: 500px;
+  margin-bottom: -10rem;
+  margin-left: -4rem; }
+
+main .sizeimgTeam {
+  height: 200px;
+  width: 252px; }
+
+@media only screen and (max-width: 1232px) {
+  .card {
+    width: 100%; }
+  .form-control {
+    width: auto; }
+  .mainTop {
+    padding-top: 5rem; }
+  .btn-wsp {
+    width: 63px;
+    height: 63px;
+    right: 2rem;
+    line-height: 66px; }
+  .paddingleft-Info {
+    height: auto;
+    font-weight: 2rem;
+    margin-left: -5rem; }
+  .btn-contact {
+    margin-left: -10rem; } }

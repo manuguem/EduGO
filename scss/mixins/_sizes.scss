@@ -1,7 +1,9 @@
-@mixin sizes ($height, $width, $font-weight){
+@mixin sizes ($height, $width, $font-weight, $margin-bottom, $margin-left){
     height: $height;
     width: $width;
     font-weight: $font-weight;
+    margin-bottom: $margin-bottom;
+    margin-left: $margin-left;
 }
 
 @mixin position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content) {

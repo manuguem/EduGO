@@ -129,108 +129,6 @@
     }
 }
 
-// Mobile left bar CSS
-// *,
-// *:after,
-// *:before {
-//     box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -webkit-box-sizing: border-box;
-// }
-
-// .navbar {
-//     padding: 10px 10%;
-// }
-
-// #logo {
-//     display: inline-block;
-//     margin-top: 7px;
-//     color: #fff;
-// }
-
-// #link {
-//     color: #fff;
-//     font-weight: bold;
-//     margin: 0 10px;
-// }
-
-// i {
-//     margin: 0 7px;
-// }
-
-// #sidebarCollapse {
-//     display: none;
-// }
-
-// #sidebarCollapse:hover {
-//     display: none;
-// }
-
-// .wrapper {
-//     display: none;
-// }
-
-// #sidebar {
-//     margin-top: 70px;
-//     background: white;
-//     color: #fff;
-//     transition: all 0.3s;
-// }
-
-// #sidebar.active {
-//     margin-left: -250px;
-// }
-
-// #sidebar ul p {
-//     padding: 10px;
-//     font-size: 1.1em;
-//     display: block;
-// }
-
-// #sidebar ul li a {
-//     padding: 10px 10px 10px 20px;
-//     font-size: 1.1em;
-//     display: block;
-//     color: #fff;
-//     font-weight: bold;
-// }
-
-// #sidebar ul li a:hover {
-//     color: #6240bd;
-//     background: #fff;
-//     text-decoration: none;
-// }
-
-// #sidebar ul li.active>a,
-// a[aria-expanded="true"] {
-//     color: #fff;
-//     background: #8a5fff;
-// }
-
-// a[data-toggle="collapse"] {
-//     position: relative;
-// }
-
-// .dropdown-toggle::after {
-//     display: block;
-//     position: absolute;
-//     top: 50%;
-//     right: 20px;
-//     transform: translateY(-50%);
-// }
-
-// #content {
-//     width: 100%;
-//     padding: 40px;
-//     min-height: 100vh;
-//     transition: all 0.3s;
-//     margin-top: 70px;
-// }
-
-// #sidebar ul.components {
-//     display: none;
-// }
-
 .form-control {
     //sizes ($height, $width, $font-weight)
     width: 30rem;
@@ -246,34 +144,6 @@
     }
 }
 
-@media (max-width: 1200px) {
-    #sidebar {
-        min-width: 250px;
-        max-width: 250px;
-        background: $gray-700;
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0px;
-    }
-    #sidebarCollapse span {
-        display: none;
-    }
-    .card {
-        width: 100%;
-    }
-    #sidebar ul.components {
-        display: contents;
-        padding: 20px 0px;
-    }
-    .form-control {
-        //sizes ($height, $width, $font-weight)
-        width: auto;
-    }
-    .mainTop {
-        padding-top: 5rem;
-    }
-}
 
 .wrapper {
     display: flex;
@@ -315,13 +185,4 @@
 
 .btn-wsp:hover {
     background: #20ba5a;
-}
-
-@media only screen and (min-width:320px) and (max-width:768px) {
-    .btn-wsp {
-        width: 63px;
-        height: 63px;
-        right: 2rem;
-        line-height: 66px;
-    }
 }

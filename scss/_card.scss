@@ -2,6 +2,17 @@
 // Base styles
 //
 
+.card2 {
+  padding-top: 1.2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  height: $card-height;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  @include border-radius($card-border-radius);
+}
 .card {
   padding-top: 1.2rem;
   position: relative;

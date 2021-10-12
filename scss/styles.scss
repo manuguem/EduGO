@@ -3,6 +3,7 @@
 @import "../scss/mixins/breakpoints";
 @import "../scss/buttons";
 @import "../scss/mixins/sizes";
+
 a {
     text-decoration: none;
     color: $black;
@@ -15,17 +16,19 @@ a:hover {
 header {
     color: $black;
     background-color: $white;
-    //sizes ($height, $width, $font-weight)
-    @include sizes (auto, null, 2rem);
+    //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+    @include sizes (auto, null, 2rem, null, null);
     
     div {
         // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null, null, null, 10rem, null, null, null);
         
     }
+
     .paddingleft-Info {
         @include position(null, null, null, 5rem, null, null, null);
     }
+
 }
 
 
@@ -43,5 +46,39 @@ main {
     }
     .mainSection {
         padding: 0 10%;
+    }
+    .sizeImgindex {
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+        @include sizes (500px, 500px, null, -10rem, -4rem);
+    }
+
+    .sizeimgTeam {
+        @include sizes (200px, 252px, null, null, null);
+    }
+}
+
+@media only screen and (max-width: 1232px) {
+    .card {
+         //sizes ($height, $width, $font-weight)
+         @include sizes (null, 100%, null, null, null);
+    }
+    .form-control {
+        //sizes ($height, $width, $font-weight)
+        @include sizes (null, auto, null, null, null);
+    }
+    .mainTop {
+        @include position(null, 5rem, null, null, null, null, null);
+    }
+    .btn-wsp {
+        width: 63px;
+        height: 63px;
+        right: 2rem;
+        line-height: 66px;
+    }
+    .paddingleft-Info {
+        @include sizes (auto, null, 2rem, null, -5rem);
+    }
+    .btn-contact {
+        @include sizes (null, null, null, null, -10rem);
     }
 }
