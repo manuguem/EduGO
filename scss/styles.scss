@@ -15,7 +15,7 @@ a:hover {
 
 header {
     color: $black;
-    background-color: $white;
+    background: $white;
     //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
     @include sizes (auto, null, 2rem, null, null);
     
@@ -28,7 +28,9 @@ header {
     .paddingleft-Info {
         @include position(null, null, null, 5rem, null, null, null);
     }
-
+    position: sticky;
+    z-index: 100;
+    top: 0;
 }
 
 
@@ -82,3 +84,4 @@ main {
         @include sizes (null, null, null, null, -10rem);
     }
 }
+
