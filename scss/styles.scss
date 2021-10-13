@@ -53,7 +53,7 @@ main {
     }
     .sizeImgindex {
         //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
-        @include sizes (500px, 500px, null, -10rem, -4rem);
+        @include sizes (450px, 450px, null, -10rem, -4rem);
     }
 
     .sizeimgTeam {
@@ -63,6 +63,7 @@ main {
 }
 
 @media only screen and (max-width: 1232px) {
+
     .card {
          //sizes ($height, $width, $font-weight)
          @include sizes (null, 100%, null, null, null);
@@ -85,6 +86,10 @@ main {
     }
     .btn-contact {
         @include sizes (null, null, null, null, -10rem);
+    }
+    .sizeImgindex {
+        top: 5rem;
+        padding: 3rem;
     }
 }
 

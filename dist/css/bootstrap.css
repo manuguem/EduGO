@@ -8076,8 +8076,8 @@ main .mainSection {
   padding: 0 10%; }
 
 main .sizeImgindex {
-  height: 500px;
-  width: 500px;
+  height: 450px;
+  width: 450px;
   margin-bottom: -10rem;
   margin-left: -4rem; }
 
@@ -8102,4 +8102,7 @@ main .sizeimgTeam {
     font-weight: 2rem;
     margin-left: -5rem; }
   .btn-contact {
-    margin-left: -10rem; } }
+    margin-left: -10rem; }
+  .sizeImgindex {
+    top: 5rem;
+    padding: 3rem; } }
