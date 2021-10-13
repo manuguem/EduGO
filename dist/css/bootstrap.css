@@ -8107,7 +8107,8 @@ main .sizeimgTeam {
     margin-left: -10rem; }
   .sizeImgindex {
     margin-top: -3rem;
-    display: flex;
-    justify-content: center; }
+    padding: 4rem; }
   .mainTopindex {
-    margin-top: -7rem; } }
+    margin-top: -7rem; }
+  .containerButton {
+    text-align: center; } }
