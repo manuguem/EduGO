@@ -26,7 +26,7 @@
   width: 60px;
   height: 60px;
   line-height: 63px;
-  bottom: 1.5rem;
+  bottom: 2.5rem;
   right: 10rem;
   background: #25d366;
   color: #FFF;
@@ -7579,7 +7579,7 @@ textarea.form-control-lg {
   width: 60px;
   height: 60px;
   line-height: 63px;
-  bottom: 1.5rem;
+  bottom: 2.5rem;
   right: 10rem;
   background: #25d366;
   color: #FFF;
@@ -8105,4 +8105,8 @@ main .sizeimgTeam {
     margin-left: -10rem; }
   .sizeImgindex {
     top: 5rem;
-    padding: 3rem; } }
+    padding: 3rem; }
+  .mainTopindex {
+    margin-top: -7rem; }
+  .button_main {
+    margin-top: -9rem; } }
