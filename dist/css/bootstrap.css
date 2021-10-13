@@ -13,7 +13,7 @@
 .mainTopindex {
   padding-top: 5rem; }
 
-#weMd01 p {
+#weMd01 span {
   font-size: larger; }
 
 .wrapper {
@@ -7568,7 +7568,7 @@ textarea.form-control-lg {
 .mainTopindex {
   padding-top: 5rem; }
 
-#weMd01 p {
+#weMd01 span {
   font-size: larger; }
 
 .wrapper {
@@ -8074,6 +8074,9 @@ main .button_main {
 main .mainTop2 {
   padding-top: 5rem; }
 
+main .mainTop3 {
+  padding-top: 1rem; }
+
 main .mainSection {
   padding: 0 10%; }
 
@@ -8086,6 +8089,12 @@ main .sizeImgindex {
 main .sizeimgTeam {
   height: 200px;
   width: 252px; }
+
+main .zoom:hover {
+  transform: scale(1.05); }
+
+main .zoom {
+  transition: transform 0.5s; }
 
 @media only screen and (max-width: 1002px) {
   .card {

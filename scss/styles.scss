@@ -48,6 +48,11 @@ main {
         // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(null, 5rem, null, null, null, null, null);
     }
+
+    .mainTop3 {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, 1rem, null, null, null, null, null);
+    }
     .mainSection {
         padding: 0 10%;
     }
@@ -58,7 +63,13 @@ main {
 
     .sizeimgTeam {
         @include sizes (200px, 252px, null, null, null);
+
     }
+    .zoom:hover {
+        transform: scale(1.05); }
+      
+      .zoom {
+        transition: transform 0.5s; }
 
 }
 
