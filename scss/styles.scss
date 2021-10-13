@@ -62,7 +62,7 @@ main {
 
 }
 
-@media only screen and (max-width: 1232px) {
+@media only screen and (max-width: 1002px) {
 
     .card {
          //sizes ($height, $width, $font-weight)
@@ -88,8 +88,8 @@ main {
         @include sizes (null, null, null, null, -10rem);
     }
     .sizeImgindex {
-        top: 5rem;
-        padding: 3rem;
+        margin-top: -3rem;
+        padding: 5rem;
     }
     .mainTopindex {
         margin-top: -7rem;

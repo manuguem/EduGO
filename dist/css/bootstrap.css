@@ -8087,7 +8087,7 @@ main .sizeimgTeam {
   height: 200px;
   width: 252px; }
 
-@media only screen and (max-width: 1232px) {
+@media only screen and (max-width: 1002px) {
   .card {
     width: 100%; }
   .form-control {
@@ -8106,8 +8106,8 @@ main .sizeimgTeam {
   .btn-contact {
     margin-left: -10rem; }
   .sizeImgindex {
-    top: 5rem;
-    padding: 3rem; }
+    margin-top: -3rem;
+    padding: 5rem; }
   .mainTopindex {
     margin-top: -7rem; }
   .button_main {
