@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.css">
     <link rel="shortcut icon" href="../img/logos/eduGOicono.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
-    <header class="container">
+<body class="bg-edugogray">
+    <header class="container bg-edugogray">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 60px;" src="../img/logos/eduGOheader.png" alt="EduGO headerlogo"></a>
+                <a class="navbar-brand" href="../index.html"><img style="height: 60px; width: 60px;"
+                        src="../img/logos/eduGOheader1.png" alt="EduGO headerlogo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -85,10 +87,11 @@
                     </div>
                     <div class="row mainTop2 justify-content-around">
                         <div class="col-sm-3">
-                            <div class="card2 zoom">
-                                <img src="../img/images/ValeriaArceo.png"
-                                    style="border-radius: 50%; width: 295px; height: 200px;"
-                                    class="card-img-top container center_Items" alt="Perfil Valeria">
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300"
+                                class="card3 bg-edugogray shadow">
+                                <img class="center_Items" src="../img/images/ValeriaArceo.png"
+                                    style="border-radius: 50%;" class="card-img-top container center_Items"
+                                    alt="Perfil Valeria">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Valeria Arceo</h5>
                                     <p class="card-text">Founder EduGo.<br>Desarrollo de negocios y marketing.<br>
@@ -96,11 +99,12 @@
                                             busca nuevas oportunidades”.</b>
                                     </p>
                                 </div>
-                            </div>
+                            </div><br>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card2 zoom">
-                                <img src="../img/images/IvanCetina.jpg" style="border-radius: 50%;"
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300"
+                                class="card3 bg-edugogray shadow">
+                                <img src="../img/images/IvanCetina.png" style="border-radius: 50%;"
                                     class="card-img-top container sizeimgTeam" alt="Perfil Iván">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Iván Cetina</h5>
@@ -108,10 +112,11 @@
                                             sueños”.</b>
                                     </p>
                                 </div>
-                            </div>
+                            </div><br>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card2 zoom">
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300"
+                                class="card3 bg-edugogray shadow">
                                 <img src="../img/images/AnaPaulinaLlanes.png" style="border-radius: 50%;"
                                     class="card-img-top container sizeimgTeam" alt="Perfil Paulina">
                                 <div class="card-body text-center">
@@ -212,6 +217,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-<script src="../dist/js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
