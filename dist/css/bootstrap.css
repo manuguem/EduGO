@@ -8096,6 +8096,10 @@ main .zoom:hover {
 main .zoom {
   transition: transform 0.5s; }
 
+main .sizeLogo {
+  height: 60px;
+  width: 60px; }
+
 @media only screen and (max-width: 1002px) {
   .card {
     width: 100%; }

@@ -70,7 +70,10 @@ main {
       
       .zoom {
         transition: transform 0.5s; }
-
+    .sizeLogo {
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+    @include sizes (60px, 60px, null, null, null);
+    }
 }
 
 @media only screen and (max-width: 1002px) {
