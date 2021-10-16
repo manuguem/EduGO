@@ -3354,7 +3354,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  height: 34rem;
+  height: 35rem;
   word-wrap: break-word;
   background-color: #fff;
   border-radius: 0.5rem; }
@@ -3365,7 +3365,7 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  height: 25rem;
+  height: 26rem;
   word-wrap: break-word;
   background-color: #fff;
   border-radius: 0.5rem; }
@@ -8247,6 +8247,13 @@ textarea.form-control-lg {
 
 .bg-edugogray {
   background: #e9e9e9; }
+
+.font-lighter {
+  font-weight: lighter;
+  font-size: large; }
+
+.font-italic {
+  font-style: italic; }
 
 a {
   text-decoration: none;
