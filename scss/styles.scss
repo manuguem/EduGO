@@ -30,6 +30,9 @@ a:hover {
     color: $black;
 }
 
+.border-radiuss {
+    border-radius: 50%;
+}
 header {
     color: $white;
     //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
@@ -98,11 +101,6 @@ main {
     @include sizes (60px, 60px, null, null, null);
     }
     
-}
-.text-flicker-out-glow {
-	-webkit-animation: text-flicker-out-glow 12.5s linear both;
-	        animation: text-flicker-out-glow 12.5s linear both;
-            animation-iteration-count:infinite;
 }
 
 @media only screen and (max-width: 1002px) {
