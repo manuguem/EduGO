@@ -1,6 +1,0 @@
-@import url(../dist/css/bootstrap.min.css);
-main {
-  background: linear-gradient(to left, #ff0000 0%, #ff6600 100%);
-  color: black;
-  height: auto;
-  font-weight: 2rem; }
