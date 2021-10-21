@@ -2,7 +2,30 @@
 // Base styles
 //
 
+.card2 {
+  padding-top: 1.2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+  height: 35rem;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  @include border-radius($card-border-radius);
+}
+  .card3 {
+    padding-top: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
+    height: 26rem;
+    word-wrap: break-word;
+    background-color: $card-bg;
+    @include border-radius($card-border-radius);
+}
 .card {
+  padding-top: 1.2rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -10,8 +33,7 @@
   height: $card-height;
   word-wrap: break-word;
   background-color: $card-bg;
-  background-clip: border-box;
-  border: $card-border-width solid $card-border-color;
+  transition: all 0.8s ease-in-out;
   @include border-radius($card-border-radius);
 
   > hr {
@@ -212,4 +234,9 @@
       }
     }
   }
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgb(172, 172, 172);
+  
 }

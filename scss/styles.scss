@@ -1,0 +1,164 @@
+@import "../scss/bootstrap.scss";
+@import "../scss/variables";
+@import "../scss/mixins/breakpoints";
+@import "../scss/buttons";
+@import "../scss/mixins/sizes";
+@import "../scss/mixins/transition";
+
+.indexBackground {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4389%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient4390)'%3e%3c/rect%3e%3cpath d='M 0%2c600 C 128%2c526.2 384%2c233.2 640%2c231 C 896%2c228.8 1024%2c594.6 1280%2c589 C 1536%2c583.4 1792%2c280.2 1920%2c203L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4389'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='89.06%25' y1='-19.44%25' x2='10.94%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4390'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}  
+
+.bg-edugogray {
+    background: #e9e9e9;
+}
+
+.font-lighter {
+    font-weight:lighter; font-size:large;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+a:hover {
+    color: $black;
+}
+
+header {
+    color: $white;
+    //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+    @include sizes (auto, null, 2rem, null, null);
+    
+    div {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, null, null, 10rem, null, null, null);
+        
+    }
+
+    .paddingleft-Info {
+        @include position(null, null, null, 5rem, null, null, null);
+    }
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 0;
+}
+
+
+main {
+    /*.sizeSVG {
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+        @include sizes (200px, 230px, null, null, null);
+        border-radius: 50%;
+    }*/
+    .center_Items {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(relative, null, null, null, null, null, center);
+    }
+    .button_main {
+        border-radius: 10rem;
+        border-color: whitesmoke;
+    }
+    .mainTop2 {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, 5rem, null, null, null, null, null);
+    }
+
+    .mainTop3 {
+        // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
+        @include position(null, 1rem, null, null, null, null, null);
+    }
+    .mainSection {
+        padding: 0 10%;
+    }
+    .sizeImgindex {
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+        @include sizes (450px, 450px, null, -10rem, -4rem);
+    }
+
+    .sizeimgTeam {
+        @include sizes (200px, 252px, null, null, null);
+
+    }
+    .zoom:hover {
+        transform: scale(1.05); 
+    }
+
+      .zoom {
+        transition: transform 0.5s;
+     }
+    .sizeLogo {
+    //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+    @include sizes (60px, 60px, null, null, null);
+    }
+    
+}
+.text-flicker-out-glow {
+	-webkit-animation: text-flicker-out-glow 12.5s linear both;
+	        animation: text-flicker-out-glow 12.5s linear both;
+            animation-iteration-count:infinite;
+}
+
+@media only screen and (max-width: 1002px) {
+
+    .card {
+         //sizes ($height, $width, $font-weight)
+         @include sizes (null, 100%, null, null, null);
+    }
+    .form-control {
+        //sizes ($height, $width, $font-weight)
+        @include sizes (null, auto, null, null, null);
+    }
+    .mainTop {
+        @include position(null, 5rem, null, null, null, null, null);
+    }
+    .btn-wsp {
+        width: 63px;
+        height: 63px;
+        right: 2rem;
+        line-height: 66px;
+    }
+    .paddingleft-Info {
+        @include sizes (auto, null, 2rem, null, -5rem);
+    }
+    .btn-contact {
+        @include sizes (null, null, null, null, -10rem);
+    }
+    .sizeImgindex {
+        margin-top: -3rem;
+        padding: 4rem;
+    }
+    .mainTopindex {
+        margin-top: -7rem;
+    }
+    .containerButton {
+        text-align: center;
+    }
+
+    .indexBackground {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1015' preserveAspectRatio='none' viewBox='0 0 1920 1015'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4729%26quot%3b)' fill='none'%3e%3crect width='1920' height='1015' x='0' y='0' fill='url(%23SvgjsLinearGradient4730)'%3e%3c/rect%3e%3cpath d='M 0%2c714 C 128%2c607.2 384%2c200.4 640%2c180 C 896%2c159.6 1024%2c581.2 1280%2c612 C 1536%2c642.8 1792%2c389.6 1920%2c334L1920 1015L0 1015z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4729'%3e%3crect width='1920' height='1015' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.78%25' y1='122.29%25' x2='88.22%25' y2='-22.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4730'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); 
+    }
+    .card2 {
+        height: 39.5rem;
+    }
+    .card3 {
+        height: 28rem;
+    }
+}
+
+@media (min-width: 1004px) and (max-width: 1814px) {
+    .indexBackground {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1590%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1591)'%3e%3c/rect%3e%3cpath d='M 0%2c376 C 128%2c342 384%2c183.6 640%2c206 C 896%2c228.4 1024%2c477.2 1280%2c488 C 1536%2c498.8 1792%2c305.6 1920%2c260L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c650 C 128%2c714.8 384%2c974.8 640%2c974 C 896%2c973.2 1024%2c663.4 1280%2c646 C 1536%2c628.6 1792%2c838.8 1920%2c887L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1590'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='89.06%25' y1='-19.44%25' x2='10.94%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1591'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); 
+}
+}
+
+
+
+
+  
