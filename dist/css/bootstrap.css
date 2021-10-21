@@ -8262,6 +8262,9 @@ a {
 a:hover {
   color: #000; }
 
+.border-radiuss {
+  border-radius: 50%; }
+
 header {
   color: #fff;
   height: auto;
@@ -8309,11 +8312,6 @@ main {
     height: 60px;
     width: 60px; }
 
-.text-flicker-out-glow {
-  -webkit-animation: text-flicker-out-glow 12.5s linear both;
-  animation: text-flicker-out-glow 12.5s linear both;
-  animation-iteration-count: infinite; }
-
 @media only screen and (max-width: 1002px) {
   .card {
     width: 100%; }
@@ -8349,3 +8347,56 @@ main {
 @media (min-width: 1004px) and (max-width: 1814px) {
   .indexBackground {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1590%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1591)'%3e%3c/rect%3e%3cpath d='M 0%2c376 C 128%2c342 384%2c183.6 640%2c206 C 896%2c228.4 1024%2c477.2 1280%2c488 C 1536%2c498.8 1792%2c305.6 1920%2c260L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c650 C 128%2c714.8 384%2c974.8 640%2c974 C 896%2c973.2 1024%2c663.4 1280%2c646 C 1536%2c628.6 1792%2c838.8 1920%2c887L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1590'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='89.06%25' y1='-19.44%25' x2='10.94%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1591'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); } }
+
+/* Remove border from toggler */
+.navbar-toggler {
+  border: 0; }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0; }
+
+/* Lines of the Toggler */
+.toggler-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #4a4a4a;
+  display: block;
+  transition: all 0.2s; }
+
+/* Adds Space between the lines */
+.middle-bar {
+  margin: 5px auto; }
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%; }
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%; }
+
+/* State when navbar is opened (END) */
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0); }
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0); }
+
+/* State when navbar is collapsed (END) */
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #4a4a4a; }
