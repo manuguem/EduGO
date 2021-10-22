@@ -56,11 +56,6 @@ header {
 
 
 main {
-    /*.sizeSVG {
-        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
-        @include sizes (200px, 230px, null, null, null);
-        border-radius: 50%;
-    }*/
     .center_Items {
         // position ($position, $padding-top, $padding-bottom, $padding-left, $padding-right, $padding, $justify-content)
         @include position(relative, null, null, null, null, null, center);
@@ -118,8 +113,8 @@ main {
         @include position(null, 5rem, null, null, null, null, null);
     }
     .btn-wsp {
-        width: 63px;
-        height: 63px;
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+        @include sizes (63px, 63px, null, null, null);
         right: 2rem;
         line-height: 66px;
     }
@@ -144,10 +139,11 @@ main {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1015' preserveAspectRatio='none' viewBox='0 0 1920 1015'%3e%3cg mask='url(%26quot%3b%23SvgjsMask4729%26quot%3b)' fill='none'%3e%3crect width='1920' height='1015' x='0' y='0' fill='url(%23SvgjsLinearGradient4730)'%3e%3c/rect%3e%3cpath d='M 0%2c714 C 128%2c607.2 384%2c200.4 640%2c180 C 896%2c159.6 1024%2c581.2 1280%2c612 C 1536%2c642.8 1792%2c389.6 1920%2c334L1920 1015L0 1015z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask4729'%3e%3crect width='1920' height='1015' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.78%25' y1='122.29%25' x2='88.22%25' y2='-22.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient4730'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); 
     }
     .card2 {
-        height: 39.5rem;
+        @include sizes (39.5rem, null, null, null, null)
     }
     .card3 {
-        height: 28rem;
+        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
+        @include sizes (28rem, null, null, null, null)
     }
 }
 

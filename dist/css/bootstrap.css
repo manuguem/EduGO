@@ -8632,39 +8632,42 @@ header {
   header .paddingleft-Info {
     padding-left: 5rem; }
 
-main {
-  /*.sizeSVG {
-        //sizes ($height, $width, $font-weight, $margin-bottom, $margin-left)
-        @include sizes (200px, 230px, null, null, null);
-        border-radius: 50%;
-    }*/ }
-  main .center_Items {
-    position: relative;
-    justify-content: center; }
-  main .button_main {
-    border-radius: 10rem;
-    border-color: whitesmoke; }
-  main .mainTop2 {
-    padding-top: 5rem; }
-  main .mainTop3 {
-    padding-top: 1rem; }
-  main .mainSection {
-    padding: 0 10%; }
-  main .sizeImgindex {
-    height: 450px;
-    width: 450px;
-    margin-bottom: -10rem;
-    margin-left: -4rem; }
-  main .sizeimgTeam {
-    height: 200px;
-    width: 252px; }
-  main .zoom:hover {
-    transform: scale(1.05); }
-  main .zoom {
-    transition: transform 0.5s; }
-  main .sizeLogo {
-    height: 60px;
-    width: 60px; }
+main .center_Items {
+  position: relative;
+  justify-content: center; }
+
+main .button_main {
+  border-radius: 10rem;
+  border-color: whitesmoke; }
+
+main .mainTop2 {
+  padding-top: 5rem; }
+
+main .mainTop3 {
+  padding-top: 1rem; }
+
+main .mainSection {
+  padding: 0 10%; }
+
+main .sizeImgindex {
+  height: 450px;
+  width: 450px;
+  margin-bottom: -10rem;
+  margin-left: -4rem; }
+
+main .sizeimgTeam {
+  height: 200px;
+  width: 252px; }
+
+main .zoom:hover {
+  transform: scale(1.05); }
+
+main .zoom {
+  transition: transform 0.5s; }
+
+main .sizeLogo {
+  height: 60px;
+  width: 60px; }
 
 @media only screen and (max-width: 1002px) {
   .card {
@@ -8674,8 +8677,8 @@ main {
   .mainTop {
     padding-top: 5rem; }
   .btn-wsp {
-    width: 63px;
     height: 63px;
+    width: 63px;
     right: 2rem;
     line-height: 66px; }
   .paddingleft-Info {
