@@ -3410,7 +3410,12 @@ textarea.form-control-lg {
   height: 35rem;
   word-wrap: break-word;
   background-color: #fff;
+  transition: 0.5s;
   border-radius: 0.5rem; }
+
+.card2 .card2:hover {
+  transform: translateY(-10px);
+  transition: 0.5s; }
 
 .card3 {
   padding-top: 1.2rem;
@@ -3420,6 +3425,7 @@ textarea.form-control-lg {
   min-width: 0;
   height: 26rem;
   word-wrap: break-word;
+  transition: 0.5s;
   background-color: #fff;
   border-radius: 0.5rem; }
 
@@ -3555,6 +3561,14 @@ textarea.form-control-lg {
 
 .card:hover {
   box-shadow: 0 5px 20px #acacac; }
+
+.card2:hover {
+  transform: translateY(-10px);
+  transition: 0.5s; }
+
+.card3:hover {
+  transform: translateY(-10px);
+  transition: 0.5s; }
 
 .accordion-button {
   position: relative;
@@ -8619,6 +8633,10 @@ a:hover {
 .border-radiuss {
   border-radius: 50%; }
 
+html {
+  min-height: 100%;
+  position: relative; }
+
 header {
   color: #fff;
   height: auto;
@@ -8627,6 +8645,9 @@ header {
   z-index: 100;
   top: 0;
   width: 0; }
+  header .sizeLogoGO {
+    height: 60px;
+    width: 60px; }
   header div {
     padding-left: 10rem; }
   header .paddingleft-Info {
@@ -8659,15 +8680,15 @@ main .sizeimgTeam {
   height: 200px;
   width: 252px; }
 
+main .sizeSVGS {
+  height: 300px;
+  width: 300px; }
+
 main .zoom:hover {
   transform: scale(1.05); }
 
 main .zoom {
   transition: transform 0.5s; }
-
-main .sizeLogo {
-  height: 60px;
-  width: 60px; }
 
 @media only screen and (max-width: 1002px) {
   .card {
@@ -8699,8 +8720,28 @@ main .sizeLogo {
   .card2 {
     height: 39.5rem; }
   .card3 {
-    height: 28rem; } }
+    height: 28rem; }
+  .marginTopfooter {
+    margin-bottom: -12rem; } }
 
 @media (min-width: 1004px) and (max-width: 1814px) {
   .indexBackground {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1590%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1591)'%3e%3c/rect%3e%3cpath d='M 0%2c376 C 128%2c342 384%2c183.6 640%2c206 C 896%2c228.4 1024%2c477.2 1280%2c488 C 1536%2c498.8 1792%2c305.6 1920%2c260L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c650 C 128%2c714.8 384%2c974.8 640%2c974 C 896%2c973.2 1024%2c663.4 1280%2c646 C 1536%2c628.6 1792%2c838.8 1920%2c887L1920 1080L0 1080z' fill='rgba(233%2c 233%2c 233%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1590'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='89.06%25' y1='-19.44%25' x2='10.94%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1591'%3e%3cstop stop-color='rgba(255%2c 129%2c 0%2c 1)' offset='0.33'%3e%3c/stop%3e%3cstop stop-color='rgba(23%2c 20%2c 144%2c 1)' offset='0.83'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); } }
+
+footer {
+  background-color: transparent;
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+  footer .sizeIcons {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px; }
+
+footer p {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: large; }
+
+.marginTopfooter {
+  position: absolute; }

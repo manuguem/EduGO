@@ -11,7 +11,13 @@
   height: 35rem;
   word-wrap: break-word;
   background-color: $card-bg;
+  transition: 0.5s;
   @include border-radius($card-border-radius);
+}
+
+.card2 .card2:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
 }
   .card3 {
     padding-top: 1.2rem;
@@ -21,6 +27,7 @@
     min-width: 0; // See https://github.com/twbs/bootstrap/pull/22740#issuecomment-305868106
     height: 26rem;
     word-wrap: break-word;
+    transition: 0.5s;
     background-color: $card-bg;
     @include border-radius($card-border-radius);
 }
@@ -239,4 +246,14 @@
 .card:hover {
   box-shadow: 0 5px 20px rgb(172, 172, 172);
   
+}
+
+.card2:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.card3:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
 }
